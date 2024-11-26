@@ -45,15 +45,15 @@ The model was evaluated on both training and test datasets. Below are the key me
 
 ### Train-Test Loss Over Epochs:
 
-![Alt text](outputs\train-test-loss-over-epochs.png "Train Test Loss as observed over 20 epochs")
+![Train Test Loss as observed over 20 epochs](outputs/train-test-loss-over-epochs.png "Train Test Loss")
 
 ### Train Data Confusion Matrix:
 
-![Alt text](outputs\train_data_cnf_mat.png "Train Data Confusion Matrix")
+![Train Data Confusion Matrix](outputs/train_data_cnf_mat.png "Train Data Confusion Matrix")
 
 ### Test Data Confusion Matrix:
 
-![Alt text](outputs\test_data_cnf_mat.png "Test Data Confusion Matrix")
+![Test Data Confusion Matrix](outputs/test_data_cnf_mat.png "Test Data Confusion Matrix")
 
 ## How to get the code
 
