@@ -1,0 +1,11 @@
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+torchmetrics==1.6.0
+pillow==11.0.0
+matplotlib==3.8.0
+tqdm==4.66.6
+mlxtend==0.23.3
+scikit-learn==1.5.2
+ipykernel
+streamlit
