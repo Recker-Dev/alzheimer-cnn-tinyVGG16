@@ -6,16 +6,18 @@ This project implements a Convolutional Neural Network (CNN) for classifying MRI
 
 The dataset comprises high-quality MRI scans labeled for Alzheimer's Disease progression. It can be downloaded from [Kaggle](https://www.kaggle.com/datasets/lukechugh/best-alzheimer-mri-dataset-99-accuracy/data).
 
-### Problem Statement  
+### Problem Statement
+
 The task is a **classification** problem to predict the stage of Alzheimer's Disease.
 
 ### Classes
+
 The dataset includes the following classes:
+
 - **Mild Impairment**
 - **Moderate Impairment**
 - **No Impairment**
 - **Very Mild Impairment**
-
 
 ## Model Architecture
 
@@ -40,6 +42,18 @@ The model was evaluated on both training and test datasets. Below are the key me
 - **Precision:** 0.9563
 - **Recall:** 0.9547
 - **F1-Score:** 0.9548
+
+### Train-Test Loss Over Epochs:
+
+![Alt text](outputs\train-test-loss-over-epochs.png "Train Test Loss as observed over 20 epochs")
+
+### Train Data Confusion Matrix:
+
+![Alt text](outputs\train_data_cnf_mat.png "Train Data Confusion Matrix")
+
+### Test Data Confusion Matrix:
+
+![Alt text](outputs\test_data_cnf_mat.png "Test Data Confusion Matrix")
 
 ## How to get the code
 
